@@ -3,5 +3,5 @@ services:
     name: waha
     env: node
     plan: starter
-    buildCommand: npm install
-    startCommand: node dist/main.js
+    buildCommand: cd core && npm install
+    startCommand: cd core && npm run start
